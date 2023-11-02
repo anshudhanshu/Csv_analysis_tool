@@ -27,7 +27,7 @@ To run this application locally, follow the steps:
 
 ## Author
 
-- [Sudhanshu Rawat]
+- [Sudhanshu Rawat](https://github.com/anshudhanshu)
 
 ## Acknowledgments
 
