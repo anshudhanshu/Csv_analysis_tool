@@ -23,6 +23,7 @@ button = st.button("Generate Response")
 if button:
     # Get Response
     if st.session_state['OPENAI_API_KEY'] !="":
+        openai.api_key = st.session_state['OPENAI_API_KEY']
         code = eval(generate_completion(prompt=prompt.format(query = query,columns=columns)))
         st.write("👉**Result :")
         st.write(code)
